@@ -66,41 +66,86 @@
         </div>
         <div class="container-sm py-4">
             <p class="tags mb-0">&lt;form&gt;</p>
-            <div class="container py-4 rounded-3 border-color2 txt-main">
+            <div class="row py-4 rounded-3 border-color2 txt-main">
                 <div class="text-center text-white mb-3">
                     <p class="lead txt-head display-6">Don't hesitate to send a message!</p>
                 </div>
-                <form action="https://tm-statweb.be/sendmail.php" target="_blank" method="post">
-                    <div class="form-floating mb-3">
-                        <input type="text" id="fname" class="form-control" placeholder="First name" required>
-                        <label for="fname" class="form-label">First name</label>
+                <div class="col-md mb-3 justify-content-center">
+
+                    <form action="https://tm-statweb.be/sendmail.php" target="_blank" method="post">
+                        <div class="form-floating mb-3">
+                            <input type="text" id="fname" class="form-control" placeholder="First name" required>
+                            <label for="fname" class="form-label">First name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" id="lame" class="form-control" placeholder="Last name" required>
+                            <label for="lname" class="form-label">Last name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" id="email" class="form-control" placeholder="Email">
+                            <label for="email" class="form-label">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Message"
+                                style="height: 10rem;"></textarea>
+                            <label for="message" class="form-label">Message</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select class="form-control" id="interest">
+                                <option>C#</option>
+                                <option>Python</option>
+                                <option>Bootstrap</option>
+                            </select>
+                            <label for="interest" class="form-label">Interested in:</label>
+                        </div>
+                        <input type="hidden" name="studentemail" value="r0909312@student.thomasmore.be">
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md mb-3 d-flex justify-content-center">
+                    <div class="bg-main text-center txt-main text-white p-lg-5 p-4 rounded-3">
+                        <h3 class="mb-4 mt-md-4 txt-head">Contact Me</h3>
+                        <div class="dbox w-100 d-flex align-items-start">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-map-marker p-2"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <p><span>Address:</span> Joannes Lybenstraat 28, 2360 Oud-Turnhout
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dbox w-100 d-flex align-items-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-phone p-2"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <p><span>Phone:</span> <a class="contact" href="tel://1234567920">+32 472 76 65 79</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dbox w-100 d-flex align-items-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-paper-plane p-2"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <p><span>Email:</span> <a class="contact"
+                                        href="mailto:hello@deschryverjens.be">hello@deschryverjens.be</a></p>
+                            </div>
+                        </div>
+                        <div class="dbox w-100 d-flex align-items-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-globe p-2"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <p><span>Website:</span> <a class="contact"
+                                        href="https://deschryverjens.be/project2">deschryverjens.be</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" id="lame" class="form-control" placeholder="Last name" required>
-                        <label for="lname" class="form-label">Last name</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="email" id="email" class="form-control" placeholder="Email">
-                        <label for="email" class="form-label">Email</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message" type="text" placeholder="Message"
-                            style="height: 10rem;"></textarea>
-                        <label for="message" class="form-label">Message</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <select class="form-control" id="interest">
-                            <option>C#</option>
-                            <option>Python</option>
-                            <option>Bootstrap</option>
-                        </select>
-                        <label for="interest" class="form-label">Interested in:</label>
-                    </div>
-                    <input type="hidden" name="studentemail" value="r0909312@student.thomasmore.be">
-                    <div class="d-grid">
-                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-                    </div>
-                </form>
+                </div>
+
             </div>
             <p class="tags text-end">&lt;/form&gt;</p>
         </div>

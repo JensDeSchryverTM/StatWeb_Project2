@@ -127,6 +127,25 @@ footer .social-icons {
   background: #ffc286;
 }
 
+.contact:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact:visited {
+  color: #ffc286;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: #fff1af;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
 
 @media (min-width: 992px) {
   body {
