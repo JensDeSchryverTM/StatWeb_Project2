@@ -9,7 +9,7 @@
     <meta name="description" content="The portfolio of Jens De Schryver, student developer at Thomas More in Geel.">
     <link rel="icon" href="img/favicon.ico" type="image/gif">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/custom_styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,8 +51,205 @@
         </div>
     </nav>
     <!-- Inhoud-->
-    <main class="container-fluid p-0 bg-second">
-        <h1>Interests</h1>
+    <main class="container-fluid bg-second">
+        <div class="top-tag">
+            <span class="tags">&lt;html&gt;</span>
+            <br>
+            <span class="tags">&lt;body&gt;</span>
+        </div>
+        <section class="container">
+            <div class="txt-head text-center text-white">
+                <p class="lead txt-head">Get To Know</p>
+                <span class="tags text-start">&lt;h1&gt;</span>
+                <h1 class="txt-head">My Interests<span class="tags"> &lt;/h1&gt;</span></h1>
+            </div>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner rounded-3 mb-5">
+                    <div class="carousel-item active">
+                        <img src="img/home_automation.jpg" class="d-block w-100" alt="Home Automation">
+                        <div class="carousel-caption d-none d-md-block bg-main-8 rounded-3">
+                            <h5>Home Automation - Home Assistant</h5>
+                            <p>Open source home automation that puts local control
+                                and
+                                privacy first.
+                                Powered by a
+                                worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi
+                                or a local server.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/raspberry.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-main-8 rounded-3">
+                            <h5>Raspberry Pi</h5>
+                            <p>Your tiny desktop computer… and robot brains, smart home hub, media centre,
+                                networked AI core, factory controller, and much more</p>
+                        </div>
+                    </div>
+                    <div class=" carousel-item">
+                        <img src="img/drinks.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-main-8 rounded-3">
+                            <h5>Food &amp; Drinks</h5>
+                            <p>Nothing beats good food and drinks.</p>
+                        </div>
+                    </div>
+                    <div class=" carousel-item">
+                        <img src="img/series.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-main-8 rounded-3">
+                            <h5>TV Series</h5>
+                            <p>We often say something like netflix and chill.</p>
+                        </div>
+                    </div>
+                    <div class=" carousel-item">
+                        <img src="img/festival.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-main-8 rounded-3">
+                            <h5>Festivals</h5>
+                            <p>Nothing is more fun than going out and dancing to music.</p>
+                        </div>
+                    </div>
+                    <div class=" carousel-item">
+                        <img src="img/fitness.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-main-8 rounded-3">
+                            <h5>Fitness</h5>
+                            <p>Ensures a healthy body and mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="text-center text-white mb-5">
+                <span class="tags text-start">&lt;h2&gt;</span>
+                <h2 class="txt-head">Home Automation<span class="tags"> &lt;/h2&gt;</span></h2>
+                <div class="rounded-3 p-3 bg-main">
+                    <p class="about txt-main">All my life I have had a passion for technology. At a
+                        young age I
+                        was already
+                        building my own computer,
+                        making websites and even small games. At a certain age, the nightlife started and being actively
+                        engaged
+                        in technology has stopped. The interest then went a bit to the background, so unfortunately I
+                        did
+                        not
+                        choose an IT direction in school ...
+                        After my school career and a few years of work, this passion has come back more and more. I have
+                        always
+                        been the &quot;family IT person&quot;. I&apos;m the point of contact if something does not work
+                        or
+                        for
+                        help with a new
+                        purchase, technology related.
+                        A few years ago I built my house and of course opted for a home automation system (Loxone).
+                        I&apos;m
+                        a
+                        big
+                        fan of automating daily routines and making most things around us &quot;smart&quot;. Just by
+                        placing
+                        some
+                        temperature sensors and motion detectors, you can already automate so much. For example, you can
+                        program
+                        that the shutters must automatically close in the summer as soon as a certain temperature is
+                        exceeded.
+                        Recently, on top of Loxone, I also started with Home Assistant, an open source platform. This is
+                        to
+                        be
+                        able to go even further in automation and especially to connect everything together in a central
+                        system
+                        without limitations. Home Assistant therefore acts as a &quot;hub&quot;, from there I can
+                        program
+                        smart
+                        logic,
+                        dashboards and automation without having to rely on different applications from different
+                        suppliers
+                        of
+                        home automation hardware. Now, for example, I can link nest&apos;s doorbell to the outdoor
+                        lighting.
+                        If
+                        someone rings the doorbell when it is dark, the outdoor lighting automatically turns on for a
+                        certain
+                        amount of time.
+                    </p>
+                </div>
+            </div>
+            <div class="container text-center text-white">
+                <div class="row">
+                    <div class="col-md mb-5">
+                        <span class="tags text-start">&lt;h3&gt;</span>
+                        <h3 class="txt-head">TV Series<span class="tags"> &lt;/h3&gt;</span></h3>
+                        <div class="rounded-3 p-3 bg-main">
+                            <p class="about txt-main">But enough about automation... While I love thinking of and
+                                implementing new features in Home Assistant,
+                                I also enjoy sitting in the couch with my wife in the evening after a workday and
+                                binging a series on
+                                Netflix. This really allows me to completely relax and clear my head.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md mb-5">
+                        <span class="tags text-start">&lt;h3&gt;</span>
+                        <h3 class="txt-head">Festivals &amp; Food<span class="tags"> &lt;/h3&gt;</span></h3>
+                        <div class="rounded-3 p-3 bg-main">
+                            <p class="about txt-main">Going out for dinner with my beautiful wife and kids, date night
+                                with the wife alone or just with
+                                friends. I do that very often! In the summer we regularly go to festivals. I have a very
+                                broad taste of
+                                music genres, but for a festival I like to choose one with EDM. For example, I try to be
+                                present at
+                                Tomorrowland every year. I have not yet experienced the amazing atmosphere from there at
+                                another
+                                festival. Everyone is always so friendly and happy and enjoys the music.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md mb-5">
+                        <span class="tags text-start">&lt;h3&gt;</span>
+                        <h3 class="txt-head">Fitness<span class="tags"> &lt;/h3&gt;</span></h3>
+                        <div class="rounded-3 p-3 bg-main">
+                            <p class="about txt-main">Because my father is a bodybuilder, I could be found in the gym at
+                                a young age. from the age of 13 to 20
+                                I went to the gym 3 to 4 times a week. You get so much energy from this and a fit body.
+                                Unfortunately,
+                                this has been shifted to a lower priority since my free time is not infinite and I also
+                                like to spend a
+                                lot of time with my children. Now I&apos;m still trying to maintain it with a fitness
+                                device at my home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <div class="bottom-tag">
+            <span class="tags">&lt;/body&gt;</span>
+            <br>
+            <span class="tags">&lt;/html&gt;</span>
+        </div>
     </main>
 
     <!-- Footer -->
@@ -76,7 +273,6 @@
 
     <!-- Scripts -->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/81583174ac.js" crossorigin="anonymous"></script>
 </body>
 
