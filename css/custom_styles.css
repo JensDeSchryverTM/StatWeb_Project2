@@ -94,7 +94,9 @@ footer .social-icons {
 .social-icons .social-icon:hover {
   background-color: #ffc286;
 }
-
+.icon {
+  color: #fff1af;
+}
 .bg-main {
   background-color: #66806a;
 }
