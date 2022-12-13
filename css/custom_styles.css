@@ -59,6 +59,11 @@ main {
   font-weight: lighter;
 }
 
+.arrow {
+  display: none;
+}
+
+
 .bottom-tag {
   padding-top: 3rem;
 }
@@ -201,4 +206,13 @@ footer .social-icons {
     display: none;
   }
 }
-
+@media (min-width: 576px){
+  .arrow {
+    color: #fff1af;
+    display: block;
+  }
+  .arrow:hover {
+    color: #ffc286;
+    display: block;
+  }
+}
